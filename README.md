@@ -37,3 +37,66 @@ Question 2: Write a javascript function that takes an array of numbers and a tar
 Question 3: Write a function that converts HEX to RGB. Then Make that function auto-dect the formats so that if you enter HEX color format it returns RGB and if you enter RGB color format it returns HEX.
 
 You can see the solution files by other students here
+
+
+
+For WINDOWS Users ONLY
+If you are on a Windows Machine (so you can skip this section if your computer is Mac or Linux based), you will need to install something called Git Bash for you to be able to follow the next lesson.
+
+Here is a detailed guide for you to get set up:
+
+1. Download Git for Windows (we will be using this for future lessons as well so make sure you download it!)
+
+2. Once Git Bash is downloaded, run the downloaded .exe file. You will get a prompt that says “Do you want to allow this app to make changes to your device?” Click Yes.
+
+3. Run through the installer: We will use the default settings for everything in this installation, so all you need to do now is keep clicking Next, and finally Finish. (If you want more details on what each option does, you can read about it here and read the Git Bash Windows Installation section)
+
+4. Congratulations! You have just finished the setup. You can now open “Git Bash” from your computer so you can follow the lesson in the next video. You now have the same setup as any Mac or Linux user where we call this the "Terminal".
+
+Ps Windows has recently announced that you will be able to download an actual Terminal from their online store for free. However, this is still in preview mode so for now, I recommend the above setup.
+
+
+
+
+Quick Note: For Windows Users
+In the next video, please ignore the text at the bottom. Instead, you will find all of the equivalent Windows commands below. The text at the bottom of the next lecture is for another option for Windows users which is Command Prompt which I do not recommend for this course (I left the text in the video for reference only):
+
+
+
+ls
+pwd
+cd 
+cd ..
+clear
+cd / **—> root director**
+cd ~
+cd <folder/folder/folder> ** <> means to add your own folder names that exist on your computer.
+mkdir <folder>
+open <folder> **for windows use: start <folder>
+touch index.html  **for windows use: echo "" > index.html
+open index.html **for windows use: start index.html
+open -a “Sublime Text”  **for windows see the note about this at the bottom of this lecture!!
+open . **for windows use: start .
+mv index.html about.html
+*Try using the Up and Down arrow.
+ 
+rm <file>
+rm -r <folder>
+say hello **(only on Mac)**
+
+Windows ONLY: How to open -a “Sublime Text”  in windows?
+
+**Assuming your Sublime Text 3 was located in the "C:\Program Files\Sublime Text 3" directory**
+
+1. In Git Bash copy paste and run:
+echo 'alias subl="/C/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"' >> ~/.bashrc
+
+
+
+2. Close Git Bash and Open it again.
+
+
+
+3. In Git bash type:
+
+subl
