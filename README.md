@@ -120,3 +120,32 @@ echo 'alias subl="/C/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"' >> ~/.ba
 3. In Git bash type:
 
 subl
+
+
+
+Resources: Customizing Sublime Text 3
+
+Here are my recommended resources to get your Sublime Text personalized:
+
+1.  Material Theme
+2.  Oceanic Next Colour Scheme
+3.  Package Control
+4.  A great article going over sublime text 3 setup
+
+My recommended packages to install (command + shift +p):
+
+Babel
+
+SidebarEnhancements
+
+A File Icon
+
+GitGutter
+
+BracketHighlighter
+
+Other options other than Sublime Text 3 (Both are free):
+
+Atom
+
+Visual Studio Code
